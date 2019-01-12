@@ -26,15 +26,15 @@ better
 
 **Implementation/Code:** The following is the code for generateNbyMmatrix(int n, int m)
 
-		#include <iostream>
-		#include <random>
-		#include <vector>
-		#include <chrono>
+#include <iostream>
+#include <random>
+#include <vector>
+#include <chrono>
 
 
-		//Task: Write a routine that will generate a random matrix of a given size. That is, input the number of rows and columns and output the matrix created by setting each entry in the matrix to a random value between zero and one. 
+//Task: Write a routine that will generate a random matrix of a given size. That is, input the number of rows and columns and output the matrix created by setting each entry in the matrix to a random value between zero and one. 
 
-		std::vector<std::vector<double>> genererateNbyMmatrix(int n, int m);
+std::vector<std::vector<double>> genererateNbyMmatrix(int n, int m);
 
 		int main(int argc, char *argv[]) {
 
