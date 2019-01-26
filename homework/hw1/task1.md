@@ -1,4 +1,4 @@
-# Math 4610 Fundamentals of Computational Mathematics Software Manual Template File
+# Math 5610 Computational Linear Algebra and Solutions to Systems Software Manual Entry 
 This is a template file for building an entry in the student software manual project. You should use the formatting below to
 define an entry in your software manual.
 
