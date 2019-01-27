@@ -3,7 +3,12 @@
 This repository contains the homework and other notes for Jer Moore 
 ### Homework Links
 
-1. [homework](https://thedegreeisalie.github.io/homework)
+1. [homework1](https://thedegreeisalie.github.io/homework/hw1)
+1. [homework2](https://thedegreeisalie.github.io/homework/hw2)
+1. [homework3](https://thedegreeisalie.github.io/homework/hw3)
+1. [homework4](https://thedegreeisalie.github.io/homework/hw4)
+1. [homework5](https://thedegreeisalie.github.io/homework/hw5)
+1. [homework6](https://thedegreeisalie.github.io/homework/hw6)
 
 
 ### Links for content for Math 5610:
