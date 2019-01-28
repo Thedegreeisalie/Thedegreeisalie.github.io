@@ -1,4 +1,4 @@
-#Task 6
+# Task 6
 To complete this problem, you will need to go to the Engineering Computer Lab on the third floor of the Engineering Building. Login to one of the computers and open up a Cygwin window. A Linux shell window will pop up for you to use. Complete the following steps:
 
     Log onto a computer (Engineering Lab) and open a command terminal to work in.
@@ -36,4 +36,4 @@ To complete this problem, you will need to go to the Engineering Computer Lab on
                 % ranlib mylib.a
               
 
-
+# Proof
