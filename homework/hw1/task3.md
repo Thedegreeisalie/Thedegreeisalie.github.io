@@ -8,4 +8,4 @@ The information on the web page given above will show you how to build web pages
 
 #Proof
 
-	[thedegreeisalie.github.io](https://thedegreeisalie.github.io)
+[thedegreeisalie.github.io](https://thedegreeisalie.github.io)
