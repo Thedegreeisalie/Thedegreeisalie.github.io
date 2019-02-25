@@ -2,7 +2,7 @@
 
 The following list provides links to the homework assignment number 2 completed by Jer Moore in Math 5610 
 
-- [ ] 1. [task 1](https://thedegreeisalie.github.io/homework/hw2/task1)
+- [x] 1. [task 1](https://thedegreeisalie.github.io/homework/hw2/task1)
 - [ ] 2. [task 2](https://thedegreeisalie.github.io/homework/hw2/task2)
 - [ ] 3. [task 3](https://thedegreeisalie.github.io/homework/hw2/task3)
 - [ ] 4. [task 4](https://thedegreeisalie.github.io/homework/hw2/task4)
