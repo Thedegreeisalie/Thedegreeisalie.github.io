@@ -1,3 +1,5 @@
 *.cpp
 *.out
 *.o
+*.sh
+scripts/*
