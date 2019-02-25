@@ -142,7 +142,6 @@ The following is the code for main.cpp
 	}
 
 **Last Modified:** 1/11/2019
-
 #ifndef _ABSERROR_H_
 #define _ABSERROR_H_
 double absError(double x, double y);
