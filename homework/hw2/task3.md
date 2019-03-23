@@ -1,5 +1,5 @@
-# Task 2: 
- Task: Implement a method/routine that computes and returns the absolute error in the approximation of a number x by another number y. Also create an entry for the method in your software manual. 
+# Task 3: 
+Task: Implement a method/routine that computes and returns the relative error in the approximation of a number x by another number y. Also create an entry for the method in your software manual
 # Proof
 
 **Routine Name:**          relError 
@@ -23,7 +23,7 @@ For example, the following will compile the small demonstration function as well
 
 **Input:**  two numbers x and y
 
-**Output:** the relative error between them 
+**Output:** a double signifying the relative error between them 
 
 **Usage/Example:**
 

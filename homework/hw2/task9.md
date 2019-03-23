@@ -1,5 +1,5 @@
-# Task 2: 
- Task: Implement a method/routine that computes and returns the absolute error in the approximation of a number x by another number y. Also create an entry for the method in your software manual. 
+# Task 9: 
+Task: Write a routine that will generate a symmetric matrix that has real values in all entries of the matrix. Add an entry to your for the method you create 
 # Proof
 
 **Routine Name:**          generateSymetricNbyNMatrix 
@@ -19,11 +19,11 @@ For example, the following will compile the small demonstration function as well
 
 
 
-**Description/Purpose:**  Computes the absolute error betwen two numbers x and y
+**Description/Purpose:**  
 
-**Input:**  two numbers x and y
+**Input:** a size n 
 
-**Output:** the absolute error between them 
+**Output:** a symetric matrix of doubles 
 
 **Usage/Example:**
 
