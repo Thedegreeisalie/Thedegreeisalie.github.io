@@ -1,8 +1,8 @@
-# Task 2: 
-Task: Implement a method that will return a scalar multiple of a given vector. The method should require a vector and number for the operation. Add an entry to your software manual for this method. 
+# Task 5:
+Task: Implement a method that will return a scalar multiple of a given vector. The method should require a vector and number for the operation. Add an entry to your software manual for this method.
 # Proof
 
-**Routine Name:**          scaleVector 
+**Routine Name:**          scaleVector
 
 **Author:** Jer Moore
 
@@ -21,7 +21,7 @@ For example, the following will compile the small demonstration function as well
 
 **Description/Purpose:**  Computes the absolute error betwen two numbers x and y
 
-**Input:**  a number **scale** and a vetor **v1** 
+**Input:**  a number **scale** and a vetor **v1**
 
 **Output:**  a vector that is the original scaled by **scale**
 
@@ -43,7 +43,7 @@ end of the second value).
 	#endif
 
 The following is the code for scaleVector.cpp
-	//task: Implement a method that will return a scalar multiple of a given vector. The method should require a vector and number for the operation. Add an entry to your software manual for this method. 
+	//task: Implement a method that will return a scalar multiple of a given vector. The method should require a vector and number for the operation. Add an entry to your software manual for this method.
 
 	#include "scaleVector.h"
 
@@ -63,7 +63,7 @@ The following is the code for main.cpp
 	std::vector<double> scaleVector(double scale, std::vector<double> v2);
 
 	int main(int argc, char *argv[]) {
-		
+
 		typedef std::chrono::high_resolution_clock clock;
 		clock::time_point begining = clock::now();
 
@@ -79,7 +79,7 @@ The following is the code for main.cpp
 		std::uniform_real_distribution<double> unif(1, 0);
 		clock::duration d = clock::now() - begining;
 		std::default_random_engine re (d.count());
-		
+
 		double scale = unif(re);
 
 		sum = scaleVector(scale, v1);
@@ -90,4 +90,4 @@ The following is the code for main.cpp
 		return 0;
 	}
 
-**Last Modified:** 1/11/2019
+**Last Modified:** 04/09/2019

@@ -43,13 +43,13 @@ The following are the commands run and their corresponding outputs.
 		$cp Task1/*.cpp Task6
 		$cd Task6
 
-This contains main.cpp, so I'll remove it and then compile
+This contains main.cpp, the small driver program for testing purposed so I'll remove it and then compile.
 
-    $rm main.cpp
+		$rm main.cpp
 		$g++ -c *.cpp
 		$ar rcv mylib.a *.o
-        a - doublePrecision.o
-        a - singlePrecision.o
+		a - doublePrecision.o
+		a - singlePrecision.o
 
 
-This made a file mylib.a, the compiled version of these two in one.:w
+This made a file mylib.a, the compiled version of these two object files
