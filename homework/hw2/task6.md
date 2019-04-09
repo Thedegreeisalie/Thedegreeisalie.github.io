@@ -1,8 +1,8 @@
-# Task 6: 
+# Task 6:
 Task: Implement a method that will compute the 2-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create
 # Proof
 
-**Routine Name:**          twoNormVector 
+**Routine Name:**          twoNormVector
 
 **Author:** Jer Moore
 
@@ -21,13 +21,16 @@ For example, the following will compile the small demonstration function as well
 
 **Description/Purpose:**  Computes the absolute error betwen two numbers x and y
 
-**Input:** A vector with real values 
+**Input:** A vector with real values
 
-**Output:**  The 2 norm of the vector
+**Output:**  The 2 norm of the vector in the form of a scalar
 
-**Usage/Example:**
+**Usage/Example:** With the driver function `main.cpp`
 
-Output from the lines above:
+    jer@thismachinelaughsatfascists:~/Workspace/math5610/hw2/task6/build$ ./Task6 3
+    sqrt(0.671077*0.671077+0.308964*0.308964+0.361109*0.361109+) = 0.822315
+    jer@thismachinelaughsatfascists:~/Workspace/math5610/hw2/task6/build$ ./Task6 90
+    sqrt(0.421763*0.421763+0.0358449*0.0358449+0.797981*0.797981+0.740642*0.740642+0.88*0.88+0.323443*0.323443+0.383566*0.383566+0.917537*0.917537+0.846122*0.846122+0.310242*0.310242+0.501903*0.501903+0.430487*0.430487+0.885223*0.885223+0.471497*0.471497+0.452384*0.452384+0.301733*0.301733+0.151083*0.151083+0.525393*0.525393+0.585515*0.585515+0.434865*0.434865+0.626525*0.626525+0.0812608*0.0812608+0.799072*0.799072+0.253808*0.253808+0.497771*0.497771+0.820969*0.820969+0.933394*0.933394+0.519668*0.519668+0.237479*0.237479+0.955291*0.955291+0.673102*0.673102+0.259376*0.259376+0.977187*0.977187+0.148171*0.148171+0.99752*0.99752+0.583794*0.583794+0.433143*0.433143+0.0194166*0.0194166+0.211077*0.211077+0.534275*0.534275+0.6467*0.6467+0.364511*0.364511+0.819247*0.819247+0.0632101*0.0632101+0.25487*0.25487+0.235757*0.235757+0.0851068*0.0851068+0.802918*0.802918+0.994579*0.994579+0.107003*0.107003+0.824815*0.824815+0.674164*0.674164+0.865825*0.865825+0.846712*0.846712+0.696061*0.696061+0.54541*0.54541+0.737071*0.737071+0.717958*0.717958+0.567307*0.567307+0.285118*0.285118+0.476779*0.476779+0.589204*0.589204+0.307015*0.307015+0.893289*0.893289+0.00571375*0.00571375+0.323875*0.323875+0.515536*0.515536+0.101809*0.101809+0.688083*0.688083+0.537432*0.537432+0.123706*0.123706+0.70998*0.70998+0.953943*0.953943+0.145603*0.145603+0.521103*0.521103+0.975839*0.975839+0.693651*0.693651+0.543*0.543+0.392349*0.392349+0.715547*0.715547+0.564897*0.564897+0.414246*0.414246+0.000519735*0.000519735+0.586793*0.586793+0.830756*0.830756+0.0224164*0.0224164+0.266379*0.266379+0.852653*0.852653+0.438927*0.438927+0.288276*0.288276+) = 5.59195
 
 
 
@@ -62,7 +65,7 @@ The following is the code for main.cpp
 
 
 	int main(int argc, char *argv[]) {
-		
+
 		typedef std::chrono::high_resolution_clock clock;
 		clock::time_point begining = clock::now();
 
@@ -77,7 +80,7 @@ The following is the code for main.cpp
 			v1.push_back(unif(re));
 		}
 		sum = twoNormVector(v1);
-		
+
 		std::cout << "sqrt(";
 		for (int i =0; i < n; i++) {
 			std::cout << v1[i] << "*" << v1[i] << "+";
@@ -86,5 +89,4 @@ The following is the code for main.cpp
 		return 0;
 	}
 
-**Last Modified:** 1/11/2019
-
+**Last Modified:** 04/09/2019
