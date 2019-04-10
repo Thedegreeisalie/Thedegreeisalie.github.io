@@ -23,7 +23,7 @@ For example, the following will compile the small demonstration function as well
       g++ -c *.cpp
       ar rcv Math5610.a *.o
 
-**Description/Purpose:**  Computes the absolute error betwen two numbers x and y using the 2 norm
+**Description/Purpose:**  Computes the absolute error between two numbers x and y using the 2 norm
 
 **Input:**  Two vectors x and y
 
@@ -38,10 +38,6 @@ For example, the following will compile the small demonstration function as well
 		0.35787
 
 
-The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
-decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
-end of the second value).
-
 **Implementation/Code:** The following is the code for abserror.h
 
 		#ifndef _ABSERROR1NORMVECTOR_H_
@@ -54,14 +50,10 @@ end of the second value).
 
 The following is the code for abserror.cpp
 
-		// Task: Implement a method/routine that computes and returns the absolute error in the approximation of a number x by another number y. Also create an entry for the method in your software manual
-		// in a frost course to numerical methods absolute Error in v is the absolute value of the difference of u and v
-		// |u-v| or abs(u-v)
-
 		#include <cstdlib>
 
 		#include "absError1NormVector.h"
-		// This is done hideously by enumerating all the cases. This could be done better
+
 		double absError1NormVector(std::vector<double> x, std::vector<double> y) {
 			double sumx;
 			double sumy;

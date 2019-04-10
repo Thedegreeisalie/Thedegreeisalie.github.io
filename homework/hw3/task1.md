@@ -1,4 +1,4 @@
-# Task 2:
+# Task 1:
  Task: Implement a method that returns the absolute error in the approximation of one vector by another when the 2-norm is used. Add an entry to your software manual that documents the method.
 # Proof
 
@@ -25,7 +25,7 @@ To make Code reuse easier later there's a ../lib/ folder with the source code fo
     ar rcv Math5610.a *.o
 
 
-**Description/Purpose:**  Computes the absolute error betwen two numbers x and y using the 2 norm
+**Description/Purpose:**  Computes the absolute error between two numbers x and y using the 2 norm
 
 **Input:**  Two vectors x and y
 
@@ -59,14 +59,10 @@ To make Code reuse easier later there's a ../lib/ folder with the source code fo
 
 The following is the code for abserror.cpp
 
-    // Task: Implement a method/routine that computes and returns the absolute error in the approximation of a number x by another number y. Also create an entry for the method in your software manual
-    // in a frost course to numerical methods absolute Error in v is the absolute value of the difference of u and v
-    // |u-v| or abs(u-v)
-
 		#include <cstdlib>
 
 		#include "absError2NormVector.h"
-		// This is done hideously by enumerating all the cases. This could be done better
+
 		double absError2NormVector(std::vector<double> x, std::vector<double> y) {
 			double sumx;
 			double sumy;
