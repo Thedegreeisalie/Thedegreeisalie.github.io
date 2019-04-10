@@ -1,5 +1,5 @@
-# Task 1
-Task: Implement a method that returns the absolute error in the approximation of one vector by another when the 2-norm is used. Make sure to add an entry to your software manual to document the work.
+# Task 2:
+ Task: Implement a method that returns the absolute error in the approximation of one vector by another when the 2-norm is used. Add an entry to your software manual that documents the method.
 # Proof
 
 **Routine Name:**          absError2NormVector
@@ -10,21 +10,22 @@ Task: Implement a method that returns the absolute error in the approximation of
 
 For example, the following will compile the small demonstration function as well as the routine absError
 
-  	g++ -c absError2NormVector.cpp absError.cpp
-  	ar rcv absError2NormVector.a absError2NormVector.o
-  	mkdir build
-  	cd build
-  	cmake ..
-  	make
+    g++ -c absError2NormVector.cpp absError.cpp
+	ar rcv absError2NormVector.a absError2NormVector.o
+	mkdir build
+	cd build
+	cmake ..
+	make
 
-To make code reuse easier I've created a folder, ../lib/, that contains all the previously written routines source files and added the new routines to it. The following will compile the code in that folder to something that can be run with the CMakeLists.txt that is in each Tasks folder.
 
-    cd ../lib/
+To make Code reuse easier later there's a ../lib/ folder with the source code for every routine that can be compiled with the following.
+
+    cd ../lib
     g++ -c *.cpp
     ar rcv Math5610.a *.o
 
 
-**Description/Purpose:**  Computes the absolute error between two vectors x and y using the 2 norm
+**Description/Purpose:**  Computes the absolute error betwen two numbers x and y using the 2 norm
 
 **Input:**  Two vectors x and y
 
@@ -47,6 +48,7 @@ To make code reuse easier I've created a folder, ../lib/, that contains all the 
 
 
 **Implementation/Code:** The following is the code for abserror.h
+
 		#ifndef _ABSERROR2NORMVECTOR_H_
 		#define _ABSERROR2NORMVECTOR_H_
 		#include <vector>
