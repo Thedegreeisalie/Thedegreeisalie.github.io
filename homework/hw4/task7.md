@@ -8,7 +8,7 @@
 
 **Language:** C++, can be compiled with the g++ compiler **cmake** and the **make** commands, The version here was g++ (GCC) 6.4.0.
 
-**Description/Purpose:** reduces a matrix to it's upper triangular form
+**Description/Purpose:** reduces a matrix to it's upper triangular form using only elementary row operations
  
 **Input:**  a matrix A
 
