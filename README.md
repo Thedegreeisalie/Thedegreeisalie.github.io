@@ -4,7 +4,7 @@ This repository contains the homework and other notes for Jer Moore
 ### Homework Links
 
 1. [homework](https://thedegreeisalie.github.io/homework)
-1. [software Manual](https://thedegreeisalie.github.io/softwareManual)
+2. [software Manual](https://thedegreeisalie.github.io/softwareManual)
 
 
 ### Links for content for Math 5610:
