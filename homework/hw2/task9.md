@@ -1,8 +1,8 @@
-# Task 9: 
-Task: Write a routine that will generate a symmetric matrix that has real values in all entries of the matrix. Add an entry to your for the method you create 
+# Task 9:
+Task: Write a routine that will generate a symmetric matrix that has real values in all entries of the matrix. Add an entry to your for the method you create
 # Proof
 
-**Routine Name:**          generateSymetricNbyNMatrix 
+**Routine Name:**          generateSymetricNbyNMatrix
 
 **Author:** Jer Moore
 
@@ -21,30 +21,31 @@ For example, the following will compile the small demonstration function as well
 
 **Description/Purpose:**  
 
-**Input:** a size n 
+**Input:** a size n
 
-**Output:** a symetric matrix of doubles 
+**Output:** a symetric matrix of doubles
 
 **Usage/Example:**
 
 Output from the lines above:
 
 **Implementation/Code:** The following is the code for generateSymetricNbyNMatrix.h
+
 	#ifndef _GENERATESYMETRICNBYNMATRIX_H_
 	#define _GENERATESYMETRICNBYNMATRIX_H_
 
 	#include <vector>
 	#include <chrono>
 	#include <random>
-	std::vector<std::vector<double>> generateSymetricNbyNMatrix(int n); 
+	std::vector<std::vector<double>> generateSymetricNbyNMatrix(int n);
 	#endif
 
 The following is the code for generateSymetricNbyNMatrix.cpp
 
-	// Task:Implement a method that will compute the ∞-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create 
+	// Task:Implement a method that will compute the ∞-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create
 	#include "generateSymetricNbyNMatrix.h"
 
-	std::vector<std::vector<double>> generateSymetricNbyNMatrix(int n){ 
+	std::vector<std::vector<double>> generateSymetricNbyNMatrix(int n){
 		typedef std::chrono::high_resolution_clock clock;
 		clock::time_point begining = clock::now();
 
@@ -78,7 +79,7 @@ The following is the code for main.cpp
 	std::vector<std::vector<double>> generateSymetricNbyNMatrix(int n);
 
 	int main(int argc, char *argv[]) {
-		
+
 
 		std::vector<std::vector<double>> nByMMatrix;
 		int n = std::stoi(argv[1]);
@@ -93,4 +94,3 @@ The following is the code for main.cpp
 	}
 
 **Last Modified:** 1/11/2019
-
