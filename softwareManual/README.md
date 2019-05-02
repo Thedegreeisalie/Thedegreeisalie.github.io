@@ -33,3 +33,5 @@ Computational Mathematics.
 28. [generateSymDiagDom](https://thedegreeisalie.github.io/homework/hw4/task9)
 29. [LUFactorization](https://thedegreeisalie.github.io/homework/hw5/task2)
 30. [solveLUFactorization](https://thedegreeisalie.github.io/homework/hw5/task3)
+31. [generatePosDef](https://thedegreeisalie.github.io/softwareManual/generatePosDef)
+32. [CholeskyFactorizaiton](https://thedegreeisalie.github.io/softwareManual/CholeskyFactorization)
