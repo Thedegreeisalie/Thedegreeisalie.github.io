@@ -1,4 +1,4 @@
-#Jer Moore
+### Jer Moore
  
 This repository contains homework and other notes for Jer Moore 
 ### Homework Links
