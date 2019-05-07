@@ -59,7 +59,7 @@ The following is the code for .cpp
 			}
 		}
 
-		//matrix[n][n] = sqrt(matrix[n][n]);
+		matrix[n-1][n-1] = sqrt(abs(matrix[n-1][n-1]));
 		return matrix;
 	}
 

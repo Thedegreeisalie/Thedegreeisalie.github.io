@@ -1,7 +1,6 @@
 # Homework Sets and Computational Projects:
 
-The following list provides links to the homework assignments completed by Jer Moore in Math 4610 Fundamentals of
-Computational Mathematics. 
+The following list provides links to the homework assignments completed by Jer Moore in Math
 
 1. [singleAndDoublePrecision](https://thedegreeisalie.github.io/homework/hw1/task1)
 2. [helloParallelism](https://thedegreeisalie.github.io/homework/hw1/task7)
