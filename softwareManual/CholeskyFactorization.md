@@ -12,18 +12,19 @@
 
 **Usage/Example:**  
 
-	jer@thismachinelaughsatfascists:~/Workspace/math5610/hw5/task5/build$ ./Task5 4
-	0.9045 0.0555467 0.145648 0.434886 
-	0.0409331 0.0418243 0.454702 0.982227 
-	0.0176813 0.374409 0.124862 0.721733 
-	0.187834 0.391908 0.457642 0.981064 
+	jer@thismachinelaughsatfascists:~/Workspace/math5610/hw5/task5/build$ ./Task5 3
+	1.17789 0.591352 0.188125 
+	0.591352 0.817957 0.338788 
+	0.188125 0.338788 0.145332 
 	Is the original matrix, A
-	0.951052 0.0555467 0.145648 0.434886 
-	0.0430399 0.19993 0.454702 0.982227 
-	0.0185913 1.8687 1.83508 0.721733 
-	0.197501 1.91771 -1.70546 -5.64414 
+	1.08531    0.0      0.0   
+	0.54487 0.721854    0.0   
+	0.173338 0.338491 0.0266393 
 	Is the reduced matrix L
-
+	1.17789 0.591352 0.188125 
+	0.591352 0.817957 0.338788 
+	0.188125 0.338788 0.145332 
+	Is the product of LL^T
 
 
 **Implementation/Code:** The following is the code for .h
@@ -48,7 +49,7 @@ The following is the code for .cpp
 		int n = matrix.front().size();
 
 		for (int k = 0; k < n-1; k++) {
-			matrix[k][k] = sqrt(abs(matrix[k][k]));
+			matrix[k][k] = sqrt(matrix[k][k]);
 			for (int i = k+1; i < n; i++) {
 				matrix[i][k] = matrix[i][k]/matrix[k][k];
 			}
@@ -60,6 +61,15 @@ The following is the code for .cpp
 		}
 
 		matrix[n-1][n-1] = sqrt(abs(matrix[n-1][n-1]));
+		
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if(i < j) {
+					matrix[i][j] = 0.0;
+				}
+			}
+		}
+
 		return matrix;
 	}
 
@@ -72,6 +82,8 @@ The following is the code for main.cpp
 
 	std::vector<std::vector<double>> generatePosDef(int);
 	std::vector<std::vector<double>> CholeskyFactorization(std::vector<std::vector<double>> matrix);
+	std::vector<std::vector<double>> matrixProduct(std::vector<std::vector<double>>, std::vector<std::vector<double>>);
+	std::vector<std::vector<double>> transpose(std::vector<std::vector<double>>);
 
 	int main(int argc, char *argv[]) {
 
@@ -92,15 +104,29 @@ The following is the code for main.cpp
 
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
-				std::cout << lu[i][j] << " ";
+				if(i >= j ) {
+					std::cout << lu[i][j] << " ";
+				}
+				else {
+					std::cout << "   0.0   ";
+				}
 			}
 			std::cout << std::endl;
 		}
 		
 		std::cout << "Is the reduced matrix L" << std::endl;
+
+		std::vector<std::vector<double>> A = matrixProduct(lu, transpose(lu) );
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				std::cout << A[i][j] << " ";
+			}
+			std::cout << std::endl;
+		}
+		std::cout << "Is the product of LL^T" << std::endl;
 		
 		return 0;
 	}
-
-**Last Modified:** 05/01/2019
+**Last Modified:** 05/07/2019
 
