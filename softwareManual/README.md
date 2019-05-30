@@ -34,3 +34,4 @@ The following list provides links to the homework assignments completed by Jer M
 30. [solveLUFactorization](https://thedegreeisalie.github.io/homework/hw5/task3)
 31. [generatePosDef](https://thedegreeisalie.github.io/softwareManual/generatePosDef)
 32. [CholeskyFactorizaiton](https://thedegreeisalie.github.io/softwareManual/CholeskyFactorization)
+32. [NaturalEquations](https://thedegreeisalie.github.io/softwareManual/NaturalEquations)

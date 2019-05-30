@@ -1,33 +1,9 @@
 # Task 3:
-
+Task: Write a routine/method that will return an approximate solution of the least squares problem using the normal equation approach. Create an entry in your software manual for the method. Also, make sure you use the Cholesky algorithm that you created in a previous task. 
 # Proof
 
-**Routine Name:**      
-
-**Author:** Jer Moore
-
-**Language:** C++, can be compiled with the g++ compiler **cmake** and the **make** commands, The version here was g++ (GCC) 6.4.0.
-
-**Description/Purpose:** 
- 
-**Input:** 
-
-**Output:** 
-
-**Usage/Example:** 
+[NaturalEquations](https://thedegreeisalie.github.io/softwareManual/NaturalEquations)
 
 
-
-
-**Implementation/Code:** The following is the code for .h
-
-
-The following is the code for .cpp
-
-
-
-The following is the code for main.cpp
-
-
-**Last Modified:** 04/28/2019
+**Last Modified:** 05/30/2019
 
