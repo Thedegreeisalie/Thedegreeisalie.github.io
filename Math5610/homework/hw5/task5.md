@@ -2,7 +2,7 @@
 Task: Implement the Cholesky factorization method for square matrices. Do not include any pivoting in the algorithm. Document the algorithm in your software manual. Test the code on at least 2 or 3 matrices of different sizes. At least one example should involve a matrix that is bigger than 100×100 in size. Use output from the method you created in the previous task.
 # Proof
 
-[ChoeskyFactorization](https://thedegreeisalie.github.io/softwareManual/CholeskyFactorization)
+[ChoeskyFactorization](https://thedegreeisalie.github.io/Math5610/softwareManual/CholeskyFactorization)
 
 	jer@thismachinelaughsatfascists:~/Workspace/math5610/hw5/task5/build$ ./Task5 100
 	33.1124 26.2256 22.7436 21.5561 25.2805 24.4625 23.6675 23.9546 24.9819 23.6324 20.1056 20.1882 23.6972 22.1231 20.1963 20.2482 22.245 14.3345 19.2084 19.7879 20.4121 19.9397 18.1016 20.44 20.8492 18.5062 19.4794 17.8763 16.9775 19.7739 15.2342 19.1027 15.6381 17.6815 17.3731 17.887 17.3174 13.2866 12.7417 16.1863 14.8168 15.0945 13.4585 11.9603 15.6682 11.3313 13.9546 14.0117 13.8634 11.7721 13.2389 11.016 12.0085 12.3834 13.1056 13.9762 12.0049 10.9486 10.6911 10.465 9.24873 9.54432 11.0389 10.3936 10.3668 10.763 9.79081 9.38414 8.52904 8.63084 8.00862 6.55219 8.35793 8.11764 8.16804 8.87664 7.62949 7.96977 7.02387 8.62211 6.48759 6.75423 8.3184 5.26358 7.55151 6.9863 5.36142 6.41918 4.78163 4.27655 3.20496 3.96525 4.21853 2.19757 1.48684 2.25874 0.949706 1.82429 0.420021 0.696644 

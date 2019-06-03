@@ -1,7 +1,7 @@
 # Task 4:
 Task: Write a code that will generate a symmetric, positive definite matrix for a given integer, n. Make sure that you add an entry to your software manual with a couple of examples. Your examples should be relatively small for your examples, but you should include a large example in the task solution write-up.
 # Proof
-[generatePosDef](https://thedegreeisalie.github.io/softwareManual/generatePosDef)
+[generatePosDef](https://thedegreeisalie.github.io/Math5610/softwareManual/generatePosDef)
 
 A larger matrix example
 
