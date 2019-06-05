@@ -9,4 +9,4 @@ You can contact them at jer.moore at jermoore.com.
 1. [Math5610](https://thedegreeisalie.github.io/Math5610)
 2. [Math4610](https://thedegreeisalie.github.io/Math4610)
 
-## Other useful links
+### Other links
