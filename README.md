@@ -1,6 +1,6 @@
 ### Jer Moore
  
-This repository contains homework and other notes for a Math and Computer Science student at Utah State University with a interest in Data Science and DevOps.
+This repository contains homework and other notes for a Math and Computer Science student at Utah State University with an interest in Data Science and DevOps.
 
 You can contact them at jer.moore at jermoore.com.
 
