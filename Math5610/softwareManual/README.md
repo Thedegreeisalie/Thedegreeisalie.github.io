@@ -1,15 +1,37 @@
-### Jer Moore
- 
-This repository contains homework and other notes for Jer Moore 
-### Homework Links
+# Homework Sets and Computational Projects:
 
-1. [Math5610](https://thedegreeisalie.github.io/Math5610/homework)
-2. [SoftWareManual](https://thedegreeisalie.github.io/Math5610/softwareManual)
+The following list provides links to the homework assignments completed by Jer Moore in Math
 
-
-### Links for content for Math 5610:
-
-1. [Math 5610 Syllabus](https://jvkoebbe.github.io/math5610/syllabus/syllabus)
-2. [Math 5610 Homework Tasks](https://jvkoebbe.github.io/math5610/homework/indexOfHomeworkSets)
-3. [Math 5610 Software Manual Template](https://jvkoebbe.github.io/math5610/softwareManual/softwareManualTemplate)
-      ([download](https://jvkoebbe.github.io/math5610/softwareManual/softwareManualTemplate.md))
+1. [singleAndDoublePrecision](https://thedegreeisalie.github.io/homework/hw1/task1)
+2. [helloParallelism](https://thedegreeisalie.github.io/homework/hw1/task7)
+3. [randomMatrix](https://thedegreeisalie.github.io/homework/hw1/task9)
+4. [absError](https://thedegreeisalie.github.io/homework/hw2/task2)
+5. [relError](https://thedegreeisalie.github.io/homework/hw2/task3)
+6. [addVector](https://thedegreeisalie.github.io/homework/hw2/task4)
+7. [scaleVector](https://thedegreeisalie.github.io/homework/hw2/task5)
+8. [twoNormVector](https://thedegreeisalie.github.io/homework/hw2/task6)
+9. [oneNormVector](https://thedegreeisalie.github.io/homework/hw2/task7)
+10. [infinityNormVector](https://thedegreeisalie.github.io/homework/hw2/task8)
+11. [generateSymetricNbyNMatrix](https://thedegreeisalie.github.io/homework/hw2/task9)
+12. [absError2NormVector](https://thedegreeisalie.github.io/homework/hw3/task1)
+13. [absError1NormVector](https://thedegreeisalie.github.io/homework/hw3/task2)
+14. [absErrorInfNormVector](https://thedegreeisalie.github.io/homework/hw3/task3)
+15. [infNormMatrix](https://thedegreeisalie.github.io/homework/hw3/task5)
+16. [dotVector](https://thedegreeisalie.github.io/homework/hw3/task6)
+17. [crossProduct3DVector](https://thedegreeisalie.github.io/homework/hw3/task7)
+18. [matrixProduct](https://thedegreeisalie.github.io/homework/hw3/task8)
+19. [generateDiagDom](https://thedegreeisalie.github.io/homework/hw3/task9)
+20. [scaleMatrix](https://thedegreeisalie.github.io/homework/hw4/task1)
+21. [matrixAdd](https://thedegreeisalie.github.io/homework/hw4/task2)
+22. [outerVector](https://thedegreeisalie.github.io/homework/hw4/task3)
+23. [solveDiagonal](https://thedegreeisalie.github.io/homework/hw4/task4)
+24. [solveUpperTriangular](https://thedegreeisalie.github.io/homework/hw4/task5)
+25. [solveLowerTriangular](https://thedegreeisalie.github.io/homework/hw4/task6)
+26. [rowEchelon](https://thedegreeisalie.github.io/homework/hw4/task7)
+27. [rowEchelonSolution](https://thedegreeisalie.github.io/homework/hw4/task8)
+28. [generateSymDiagDom](https://thedegreeisalie.github.io/homework/hw4/task9)
+29. [LUFactorization](https://thedegreeisalie.github.io/homework/hw5/task2)
+30. [solveLUFactorization](https://thedegreeisalie.github.io/homework/hw5/task3)
+31. [generatePosDef](https://thedegreeisalie.github.io/softwareManual/generatePosDef)
+32. [CholeskyFactorizaiton](https://thedegreeisalie.github.io/softwareManual/CholeskyFactorization)
+32. [NaturalEquations](https://thedegreeisalie.github.io/softwareManual/NaturalEquations)
