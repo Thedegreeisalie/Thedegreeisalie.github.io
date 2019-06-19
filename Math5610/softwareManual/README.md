@@ -34,4 +34,5 @@ The following list provides links to the Math5610/homework assignments completed
 30. [solveLUFactorization](https://thedegreeisalie.github.io/Math5610/homework/hw5/task3)
 31. [generatePosDef](https://thedegreeisalie.github.io/Math5610/softwareManual/generatePosDef)
 32. [CholeskyFactorizaiton](https://thedegreeisalie.github.io/Math5610/softwareManual/CholeskyFactorization)
-32. [NaturalEquations](https://thedegreeisalie.github.io/Math5610/softwareManual/NaturalEquations)
+33. [NaturalEquations](https://thedegreeisalie.github.io/Math5610/softwareManual/NaturalEquations)
+34. [GramSchmidt](https://thedegreeisalie.github.io/Math5610/softwareManual/GramSchmidt)
