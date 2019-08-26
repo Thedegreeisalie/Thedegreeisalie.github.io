@@ -4,7 +4,7 @@
 
 **Language:** C++, can be compiled with the g++ compiler **cmake** and the **make** commands, The version here was g++ (GCC) 6.4.0.
 
-**Description/Purpose:**  forms a orthonormal basis for a matrix
+**Description/Purpose:**  forms a orthonormal basis for a matrix then gives you that matrix
  
 **Input:** A matrix with linearly independant columns
 
