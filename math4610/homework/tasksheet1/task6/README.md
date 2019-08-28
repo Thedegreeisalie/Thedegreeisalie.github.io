@@ -12,6 +12,10 @@
 
 **Usage/Example:** 
 
+		pi@raspberrypi:~/Workspace/math4610/homework/tasksheet1/task6/build $ ./Task6
+		1.19209e-07 is your single machine precision
+		2.22045e-16 is your double machine precision
+
 
 **Implementation/Code:** The following is the code for .h
 	
