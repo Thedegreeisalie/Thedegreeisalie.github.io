@@ -1,6 +1,6 @@
-### Jer Moore
+### Jer Moore math4610
  
-This repository contains homework and other notes for Jer Moore 
+This repository contains homework and other notes for Jer Moore
 ### Homework Links
 
 1. [math4610](https://thedegreeisalie.github.io/math4610/homework)
