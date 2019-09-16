@@ -6,4 +6,5 @@
 - [x] 4. [task4](https://thedegreeisalie.github.io/math4610/homework/tasksheet1/task4)
 - [x] 5. [task5](https://thedegreeisalie.github.io/math4610/homework/tasksheet1/task5)
 - [x] 6. [task6](https://thedegreeisalie.github.io/math4610/homework/tasksheet1/task6)
+- [x] 7. [task7](https://thedegreeisalie.github.io/math4610/homework/tasksheet1/task7)
 
