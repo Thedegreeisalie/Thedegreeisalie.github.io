@@ -55,9 +55,18 @@ Repeat the ideas in class of creating a shared library with the machine epsilon 
 **Last Modified:** 09/29/2019
 
 
-- [x] 9. [task9](https://thedegreeisalie.github.io/math4610/homework/tasksheet1/task9)
+- [] 9. [task9](https://thedegreeisalie.github.io/math4610/homework/tasksheet1/task9)
 
 Task9: Write a main program that computes the derivative of the exponential function, ex, at the point x=π. Link to your shared library and use the absolute and relative error routines to compute the errors. You can use either the one sided or centered difference approximation for this task. 
 
+
+Work in progress
 - [x] 10. [task10](https://thedegreeisalie.github.io/math4610/homework/tasksheet1/task10)
 Task 10: Search the internet for sites that discuss absolute and relative errors. Write a brief paragraph (3 or 4 sentences) that describe your findings. Include links to the sites you cite.
+
+Absolute error is a way to quantify if the the measure being used is accurate, to truely calcuaculate it you would need the measurement and the true value of what you want to measure. Traditionally absolute error comes in the form of a plus or minus some hopefully small value at the end of a measurement. If we were measuring the length of a box with a ruler the absolute error would be the small range of values surrounding the measurement. Relative error gives a way to quantify if the measurement is accurate relative to the sheer size of the thing to be measured. Relative error is usually presented in the form of a percentage and requires teh absolute error to be known.
+
+Sources
+[1](http://www2.phy.ilstu.edu/~wenning/SLH/Absolute%20Relative%20Error.pdf)
+[2](https://www.differencebetween.com/difference-between-absolute-error-and-vs-relative-error/)
+
