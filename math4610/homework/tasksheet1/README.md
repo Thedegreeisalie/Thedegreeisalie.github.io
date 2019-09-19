@@ -53,3 +53,11 @@ Repeat the ideas in class of creating a shared library with the machine epsilon 
 	ar rcvf mylib.a *.o
 
 **Last Modified:** 09/29/2019
+
+
+- [x] 9. [task9](https://thedegreeisalie.github.io/math4610/homework/tasksheet1/task9)
+
+Task9: Write a main program that computes the derivative of the exponential function, ex, at the point x=π. Link to your shared library and use the absolute and relative error routines to compute the errors. You can use either the one sided or centered difference approximation for this task. 
+
+- [x] 10. [task10](https://thedegreeisalie.github.io/math4610/homework/tasksheet1/task10)
+Task 10: Search the internet for sites that discuss absolute and relative errors. Write a brief paragraph (3 or 4 sentences) that describe your findings. Include links to the sites you cite.
