@@ -1,3 +1,2 @@
-[Write a routine to compute your computer's single precision and another separate routine to compute double precision](https://github.com/Thedegreeisalie/math4610/tree/master/homework/tasksheet1/task6)
-
+Task 6: In class, an example of computational error involving derivatives was given. The approximation was given by a "oned-sided" difference quotient. Use a central difference to document the same behavior where the error reduces as h decreases until machine precision causes problems.
 

@@ -7,3 +7,5 @@ Repeat the ideas in class of creating a shared library with the machine epsilon 
 	ar rcvf mylib.a *.o
 
 **Last Modified:** 09/29/2019
+
+[Write a routine to compute your computer's single precision and another separate routine to compute double precision](https://github.com/Thedegreeisalie/math4610/tree/master/homework/tasksheet1/task6)
