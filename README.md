@@ -1,4 +1,4 @@
-<center><img src="IMG_7845_jeremiah.jpg" alt="Jer" title="Mugshot of Jer Moore"  width=25% class="center" /></center>
+![](IMG_7845_jeremiah.jpg)
 
 ### Jer Moore
 
