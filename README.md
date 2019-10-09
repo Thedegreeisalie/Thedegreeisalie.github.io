@@ -1,4 +1,4 @@
-<center><img src="./IMG_7845_jeremiah.jpg" alt="Jer" title="Mugshot of Jer Moore"  width=25% class="center" /></center>
+<center><img src="/IMG_7845_jeremiah.jpg" alt="Jer" title="Mugshot of Jer Moore"  width=25% class="center" /></center>
 
 ### Jer Moore
 
@@ -7,8 +7,9 @@ This repository contains homework and other notes for a Math and Computer Scienc
 You can contact them at jer.moore at jermoore.com.
 
 ### Links
-1. [Link]() Training NNs and CNNs to recognize bees includes audio and images.
-2. [Link]() Data Science project. 
+1. [BEE1 and BUZZ1]() Training NNs, RNNs, and CNNs to recognize bees, includes audio and images. Write up for Intelligent Systems.
+2. [Broken link]() Data Science project  
+3. [Software Manual for Computational Linear Algebra](https://thedegreeisalie.github.io/Math5610/softwareManual/) C++ library for doing linear algebra. Should not be used
 
 ### Homework Links
 
