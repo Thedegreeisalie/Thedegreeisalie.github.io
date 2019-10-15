@@ -1,0 +1,4 @@
+# Task 10: 
+Task: Search the internet for sites that define and discuss the Frobenius matrix norm. Also, look for sites that define consistent matrix norms. Summarize in a paragraph or two what you found and as usual cite the sites.
+# Proof
+Bouncing back off of the page that was discussed in the earlier hw2/task10 [link](http://fourier.eng.hmc.edu/e161/lectures/algebra/node12.html) describes the spectral norm as the square root of the greatest eigen value of A\*A The article expounds saying that the element wise 2 norm (p=2) is eqivalent to the frobenius norm. A less math defininition comes from wolfram mathworld [link](http://mathworld.wolfram.com/FrobeniusNorm.html) The frobenius norm is the square root of the sum of the absolute squares of it's elements. Wikipedia [link](https://en.wikipedia.org/wiki/Matrix_norm#Frobenius_norm) mentions that because the frobenius norm is very useful for numberical linear algebra, though it does not explain how. 
