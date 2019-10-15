@@ -8,6 +8,7 @@ You can contact them at jer.moore at jermoore.com.
 
 ### Links for Employers
 1. [Software Manual for Computational Linear Algebra](https://thedegreeisalie.github.io/Math5610/softwareManual/) C++ library for doing linear algebra. Mostly for educational purposes 
+2. [Resume](https://thedegreeisalie.github.io/resume.pdf)
 <!--- 2. [BEE1 and BUZZ1]() Training NNs, RNNs, and CNNs to recognize bees, includes audio and images. 3. [Broken link]() Data Science project -->
 
 ### Homework Links for Professors 
