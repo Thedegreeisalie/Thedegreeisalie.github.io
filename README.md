@@ -1,23 +1,17 @@
-# Math 5610 Computational Linear Algebra
+![](IMG_7845_jeremiah.jpg)
 
-This repository contains the homework and other notes for Jer Moore 
-### Homework Links
+### Jer Moore
 
-1. [homework](https://thedegreeisalie.github.io/homework)
+This repository contains homework and other notes for a Math and Computer Science student at Utah State University with an interest in Data Science.
 
+You can contact them at jer.moore at jermoore.com.
 
-### Links for content for Math 5610:
+### Links for Employers
+1. [Software Manual for Computational Linear Algebra](https://thedegreeisalie.github.io/Math5610/softwareManual/) C++ library for doing linear algebra. Mostly for educational purposes 
+<!--- 2. [BEE1 and BUZZ1]() Training NNs, RNNs, and CNNs to recognize bees, includes audio and images. 3. [Broken link]() Data Science project -->
 
-1. [Math 5610 Syllabus](https://jvkoebbe.github.io/math5610/syllabus/syllabus)
-2. [Math 5610 Homework Tasks](https://jvkoebbe.github.io/math5610/homework/indexOfHomeworkSets)
-3. [Math 5610 Software Manual Template](https://jvkoebbe.github.io/math5610/softwareManual/softwareManualTemplate)
-      ([download](https://jvkoebbe.github.io/math5610/softwareManual/softwareManualTemplate.md))
+### Homework Links for Professors 
 
-###  Other Useful Links:
-
-1. [Joe Koebbe's Repositories](https://github.com/jvkoebbe)
-
-### Links to Other Course Materials:
-
-1. [Math 4610 Repositry](https://jvkoebbe.github.io/math4610)
+1. [Math5610](https://thedegreeisalie.github.io/Math5610)
+2. [math4610](https://thedegreeisalie.github.io/math4610)
 
