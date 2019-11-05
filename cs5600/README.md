@@ -10,11 +10,19 @@ For the second project of cs5600 we were tasked with developing, and training a 
 
 BEE1 contains 54,382 32x32 images hand labeled as BEE or NO-BEE
 
+![Bee](BEE1/bee.png) ![no Bee](BEE1/no_bee.png)
+
 BEE2 contains 112,879 90x90 images hand labeled as BEE or NO-BEE (This is divided into BEE2_1S and BEE2_2S)
+
+![Bee](BEE2_1S/bee.png) ![no Bee](BEE2_1S/no_bee.png)
 
 BUZZ1 contains 10,260 audio samples hand labeled as BEE, CRICKET, or, NOISE
 
+Examples can be found [here](https://github.com/Thedegreeisalie/cs5600/BUZZ1/)
+
 BUZZ2 contains 12,914 audio samples hand labeled as BEE, CRICKET, or, NOISE
+
+Examples can be found [here](https://github.com/Thedegreeisalie/cs5600/BUZZ2/)
 
 ## BEE1
 
@@ -113,7 +121,16 @@ The audio data has a little more than random chance of being classified correctl
 	| SGD | epoch: 001 | loss: 1.09864 - acc: 0.3390 | val_loss: 1.09779 - val_acc: 0.4348 -- iter: 6000/6000
 	--
 
-The CNNs proved just a little bit more successful, but not by much, with a validation accuracy just barely higher.
+The CNNs proved just a little bit more successful, but not by much, but still with a large drop in validation accuracy .
+	
+	Run id: CNN_Buzz1_5Layer.tfl
+	Log directory: /tmp/tflearn_logs/
+	---------------------------------
+	Training samples: 8905
+	Validation samples: 1150
+	--
+	Training Step: 3640  | total loss: 0.13612 | time: 688.281s
+	| SGD | epoch: 001 | loss: 0.13612 - acc: 0.9446 | val_loss: 1.21757 - val_acc: 0.6400 -- iter: 8905/8905
 
 ## BUZZ2
 
@@ -125,5 +142,5 @@ The CNNs proved just a little bit more successful, but not by much, with a valid
 	--
 	Training Step: 3094  | total loss: 0.17278 | time: 545.472s
 	| SGD | epoch: 001 | loss: 0.17278 - acc: 0.9482 | val_loss: 6.04108 - val_acc: 0.4597 -- iter: 7582/7582
-	--
 
+The CNNs again had much better success than the ANNs but they were just above random for the validation accuracy.
