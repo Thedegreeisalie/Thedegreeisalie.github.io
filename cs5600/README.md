@@ -144,3 +144,14 @@ The CNNs proved just a little bit more successful, but not by much, but still wi
 	| SGD | epoch: 001 | loss: 0.17278 - acc: 0.9482 | val_loss: 6.04108 - val_acc: 0.4597 -- iter: 7582/7582
 
 The CNNs again had much better success than the ANNs but they were just above random for the validation accuracy.
+
+	Run id: CNN_Buzz2_5Layer.tfl
+	Log directory: /tmp/tflearn_logs/
+	---------------------------------
+	Training samples: 7582
+	Validation samples: 2332
+	--
+	Training Step: 3094  | total loss: 0.13692 | time: 547.728s
+	| SGD | epoch: 001 | loss: 0.13692 - acc: 0.9640 | val_loss: 6.84104 - val_acc: 0.4374 -- iter: 7582/7582
+	--
+
