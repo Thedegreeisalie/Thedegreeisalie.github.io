@@ -18,11 +18,11 @@ BEE2 contains 112,879 90x90 images hand labeled as BEE or NO-BEE (This is divide
 
 BUZZ1 contains 10,260 audio samples hand labeled as BEE, CRICKET, or, NOISE
 
-Examples can be found [here](https://github.com/Thedegreeisalie/cs5600/BUZZ1/)
+Examples can be found [here](https://github.com/Thedegreeisalie/Thedegreeisalie.github.io/tree/master/cs5600/BUZZ1)
 
 BUZZ2 contains 12,914 audio samples hand labeled as BEE, CRICKET, or, NOISE
 
-Examples can be found [here](https://github.com/Thedegreeisalie/cs5600/BUZZ2/)
+Examples can be found [here](https://github.com/Thedegreeisalie/Thedegreeisalie.github.io/tree/master/cs5600/BUZZ2)
 
 ## BEE1
 
