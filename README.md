@@ -1,7 +1,7 @@
 
 ### Jer Moore
 
-This is where I've placed some links to older projects to showcase the work I have done and some of my skills. 
+This is where I've placed some links to older projects to showcase the work I have done. 
 
 [Resume](https://thedegreeisalie.github.io/resume.pdf)
 
