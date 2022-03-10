@@ -1,9 +1,9 @@
 
-### Jer Moore
-
-This is where I've placed some links to older projects to showcase the work I have done. 
-
+### Jer Moore 
+## Software Dev, SDET
 [Resume](https://thedegreeisalie.github.io/resume.pdf)
+
+This is where I've placed some links to older projects to showcase the work I have done. This is all rarely maintained so reach out if there's an issue you find. 
 
 ### Older projects 
 1. [Software Manual for Computational Linear Algebra](https://thedegreeisalie.github.io/Math5610/softwareManual/) C++ library for doing linear algebra. Mostly for educational purposes 
