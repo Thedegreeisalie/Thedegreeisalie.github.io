@@ -1,9 +1,15 @@
 
-### Jer Moore 
-## Software Dev, SDET
-[Resume](https://thedegreeisalie.github.io/resume.pdf)
+### Jer Moore
 
-This is where I've placed some links to older projects to showcase the work I have done. This is all rarely maintained so reach out if there's an issue you find. 
+## Software Development, Math and Computer Vision
+[Resume](https://my.indeed.com/p/jeremiahm-25zeey5)
+
+This is where I've placed some links to older projects to showcase the work I have done. This is rarely maintained, please reach out if there is an issue you find. 
+
+### Current projects
+1. Automated Dice Role Tracking from Web cam
+2. [MJP C# problem set](https://github.com/Thedegreeisalie/mjpCSharp)
+3. Szeliski Computer Vision problem set  
 
 ### Older projects 
 1. [Software Manual for Computational Linear Algebra](https://thedegreeisalie.github.io/Math5610/softwareManual/) C++ library for doing linear algebra. Mostly for educational purposes 
